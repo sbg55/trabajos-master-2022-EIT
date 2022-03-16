@@ -1,0 +1,25 @@
+@startuml
+
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+title Conecta4 - Diagrama Estados
+[*] --> State1
+State2--> State1: putRed
+State1-->State2: putYellow
+State2-->State3: yellowPiecesOnBoard=>4
+State3-->State4: putRed
+
+
+State3 --> [*]:yellow4InLine
+State4-->[*]:red4InLine
+State4-->State5: putYellow
+State5-->State6: putRed
+State6-->State4
+State5-->[*] : yellow4InLine
+State6-->[*] : draw
+
+
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+title Klondike - Diagrama Estados
+
+[*] --> State1
+State1 : inTheDeck
+state State2 <<choice>>
+State1-->State2: dealCards
+State3:inTheStock
+State4:inTheTableau
+State2-->State3 : 24 cards
+State2-->State4: 28 cards
+State5:inTheWaste
+State3-->State5: moveStockToWaste
+State3-->State4: moveStockToTableau
+State6:inTheFoundation
+State6-->[*]
+State3-->State6: moveStockToFoundation
+State5-->State6: moveWasteToFoundation
+State4-->State4: moveTableauToTableau
+State5-->State3: recycle
+State5-->State4: moveWasteToTableau
+State6-->State4: moveFoundationToTableau
+State4-->State6: moveTableauToFoundation
+
+
+
+@enduml

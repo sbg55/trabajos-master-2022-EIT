@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="894px" preserveAspectRatio="none" style="width:431px;height:894px;background:#FFFFFF;" version="1.1" viewBox="0 0 431 894" width="431px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.2969" style="stroke:#00000000;stroke-width:1.0;" width="250" x="83.8772" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="88.8772" y="22.9951">Conecta4 - Diagrama Estados</text><ellipse cx="274.7544" cy="53.2969" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="State1"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="245.7544" y="124.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="245.7544" x2="303.7544" y1="147.1016" y2="147.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="255.7544" y="139.5073">State1</text></g><g id="State2"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="245.7544" y="248.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="245.7544" x2="303.7544" y1="271.1016" y2="271.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="255.7544" y="263.5073">State2</text></g><g id="State3"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="245.7544" y="372.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="245.7544" x2="303.7544" y1="395.1016" y2="395.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="255.7544" y="387.5073">State3</text></g><g id="State4"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="119.7543" y="496.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="119.7543" x2="177.7543" y1="519.1016" y2="519.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="129.7543" y="511.5073">State4</text></g><ellipse cx="120.7543" cy="878.2969" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="121.2543" cy="878.7969" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="State5"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="97.7543" y="620.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="97.7543" x2="155.7543" y1="643.1016" y2="643.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="107.7543" y="635.5073">State5</text></g><g id="State6"><rect fill="#CCCCCC" height="50" rx="12.5" ry="12.5" style="stroke:#AAAAAA;stroke-width:0.5;" width="58" x="185.7544" y="744.2969"/><line style="stroke:#AAAAAA;stroke-width:0.5;" x1="185.7544" x2="243.7544" y1="767.1016" y2="767.1016"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="38" x="195.7544" y="759.5073">State6</text></g><!--MD5=[60533a5dc91355c93bf187ba4549d745]
+link *start to State1--><g id="link_*start_State1"><path d="M274.7544,63.3099 C274.7544,75.9949 274.7544,99.7059 274.7544,118.8669 " fill="none" id="*start-to-State1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="274.7544,124.1369,278.7544,115.1369,274.7544,119.1369,270.7544,115.1369,274.7544,124.1369" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[9ca92f0828cef308805b33a10f0728b8]
+link State2 to State1--><g id="link_State2_State1"><path d="M281.1334,248.1409 C283.8404,235.1809 286.0964,218.9129 284.7544,204.2969 C284.0034,196.1199 282.6264,187.3329 281.1284,179.2719 " fill="none" id="State2-to-State1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="280.1854,174.3589,277.9544,183.9517,281.1283,179.2692,285.8109,182.4431,280.1854,174.3589" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="40" x="285.7544" y="215.5073">putRed</text></g><!--MD5=[dc702cd49c4e27e6abb2620dc4bb28d8]
+link State1 to State2--><g id="link_State1_State2"><path d="M245.5964,170.9729 C235.4204,179.9279 225.1904,191.3409 219.7544,204.2969 C212.2264,222.2379 226.0144,239.2559 241.6664,251.7789 " fill="none" id="State1-to-State2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="245.6734,254.8639,240.9824,246.2039,241.7116,251.8136,236.102,252.5428,245.6734,254.8639" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="55" x="220.7544" y="215.5073">putYellow</text></g><!--MD5=[428d136baf6462f9e03ffacdcb621855]
+link State2 to State3--><g id="link_State2_State3"><path d="M274.7544,298.3999 C274.7544,318.1179 274.7544,346.0729 274.7544,367.0659 " fill="none" id="State2-to-State3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="274.7544,372.2439,278.7544,363.2439,274.7544,367.2439,270.7544,363.2439,274.7544,372.2439" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="148" x="275.7544" y="339.5073">yellowPiecesOnBoard=&gt;4</text></g><!--MD5=[ba4168f70349cc0467fd74c2e3858fc7]
+link State3 to State4--><g id="link_State3_State4"><path d="M249.8604,422.3999 C228.9794,442.6189 199.1514,471.4999 177.3044,492.6529 " fill="none" id="State3-to-State4" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="173.5964,496.2439,182.8447,492.8573,177.1886,492.7659,177.28,487.1098,173.5964,496.2439" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="40" x="216.7544" y="463.5073">putRed</text></g><!--MD5=[0ea1e5ee684c4e9667d1229adf70964c]
+link State3 to *end--><g id="link_State3_*end"><path d="M281.7154,422.3709 C288.1604,446.8139 296.7544,485.8619 296.7544,520.2969 C296.7544,520.2969 296.7544,520.2969 296.7544,770.2969 C296.7544,845.3976 178.3014,869.2896 135.7494,875.4495 " fill="none" id="State3-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="130.7214,876.1452,140.1842,878.8758,135.6744,875.4609,139.0893,870.9511,130.7214,876.1452" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="78" x="297.7544" y="649.5073">yellow4InLine</text></g><!--MD5=[f4f866222e69fd55b25b2dc71373f977]
+link State4 to *end--><g id="link_State4_*end"><path d="M124.7504,546.4489 C94.8744,578.4219 45.5006,638.0579 26.7543,700.2969 C6,769.2029 80.1388,842.3021 109.3854,867.8415 " fill="none" id="State4-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="113.358,871.2583,109.1429,862.357,109.5672,867.9979,103.9263,868.4222,113.358,871.2583" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="60" x="27.7543" y="711.5073">red4InLine</text></g><!--MD5=[196cf0de60bc43d3e8600cccfcd43773]
+link State4 to State5--><g id="link_State4_State5"><path d="M136.0554,546.3549 C131.9064,555.4719 127.8324,566.1129 125.7544,576.2969 C123.1924,588.8489 122.9819,602.9759 123.5894,615.0879 " fill="none" id="State4-to-State5" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="123.8954,620.1449,127.3455,610.9201,123.594,615.154,119.3601,611.4024,123.8954,620.1449" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="55" x="126.7544" y="587.5073">putYellow</text></g><!--MD5=[e800215b3c28a9235acdb96089e262d2]
+link State5 to State6--><g id="link_State5_State6"><path d="M127.4934,670.5659 C128.9064,684.3219 132.4064,701.3219 140.7544,714.2969 C150.6584,729.6909 166.6144,742.1579 181.1784,751.2179 " fill="none" id="State5-to-State6" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="185.6454,753.9199,180.0156,745.8387,181.3674,751.3317,175.8745,752.6835,185.6454,753.9199" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="40" x="141.7544" y="711.5073">putRed</text></g><!--MD5=[77d24051a312aa659f8d82db30a588b3]
+link State6 to State4--><g id="link_State6_State4"><path d="M214.7804,744.0279 C214.0454,706.6699 209.5004,633.4109 186.7544,576.2969 C183.2114,567.4009 177.9344,558.5609 172.4324,550.6879 " fill="none" id="State6-to-State4" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="169.3624,546.4189,171.37,556.0609,172.2818,550.4781,177.8647,551.3899,169.3624,546.4189" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[1f30cf8be8bc3e54e298e3363380d3e7]
+link State5 to *end--><g id="link_State5_*end"><path d="M114.128,670.4859 C104.7642,689.8569 92.7869,718.0399 87.7543,744.2969 C83.5711,766.1219 83.5746,772.4709 87.7543,794.2969 C92.7235,820.2452 105.695,848.4178 113.8163,864.3609 " fill="none" id="State5-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="116.1667,868.9001,115.5802,859.0687,113.8675,864.46,108.4762,862.7473,116.1667,868.9001" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="78" x="88.7543" y="773.5073">yellow4InLine</text></g><!--MD5=[fb9a5657a583dc9ed9fdd36ecb9a78dd]
+link State6 to *end--><g id="link_State6_*end"><path d="M193.6584,794.3098 C173.8984,816.8033 145.2534,849.4101 130.4384,866.2729 " fill="none" id="State6-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="126.9844,870.2051,135.929,866.0827,130.284,866.4484,129.9183,860.8034,126.9844,870.2051" style="stroke:#000000;stroke-width:1.0;"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="27" x="166.7544" y="835.5073">draw</text></g><!--MD5=[af247d5df7f026520a355b880d8a1662]
+@startuml
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+title Conecta4 - Diagrama Estados
+[*] - -> State1
+State2- -> State1: putRed
+State1- ->State2: putYellow
+State2- ->State3: yellowPiecesOnBoard=>4
+State3- ->State4: putRed
+
+
+State3 - -> [*]:yellow4InLine
+State4- ->[*]:red4InLine
+State4- ->State5: putYellow
+State5- ->State6: putRed
+State6- ->State4
+State5- ->[*] : yellow4InLine
+State6- ->[*] : draw
+@enduml
+
+@startuml
+
+
+
+
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+skinparam backgroundColor fff
+
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  attributeFontColor 333
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor e0e0e0
+  borderColor cccccc
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  lifeLineBorderColor 2a86e2
+  lifeLineBackgroundColor e0e0e0
+}
+
+skinparam boundary {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+  startColor 2a86e2
+  endColor 1a66c2
+}
+
+
+skinparam object {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+title Conecta4 - Diagrama Estados
+[*] - -> State1
+State2- -> State1: putRed
+State1- ->State2: putYellow
+State2- ->State3: yellowPiecesOnBoard=>4
+State3- ->State4: putRed
+
+
+State3 - -> [*]:yellow4InLine
+State4- ->[*]:red4InLine
+State4- ->State5: putYellow
+State5- ->State6: putRed
+State6- ->State4
+State5- ->[*] : yellow4InLine
+State6- ->[*] : draw
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
